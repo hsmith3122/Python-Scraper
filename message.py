@@ -1,14 +1,10 @@
 from twilio.rest import Client
 
-sid = 'ACf654ab9089758f9277afb2f9addee727'
-auth = '404814a1ee603d76521917be10f463ee'
-serverphone = '+15132702972'
+sid = ''
+auth = ''
+serverphone = ''
 
-
-phone_herb = '+12058088345'
-phone_ahjah = '+12343001719'
-
-phone_all = [phone_herb, phone_ahjah]
+subscribers = []
 
 client = Client(sid, auth)
 
